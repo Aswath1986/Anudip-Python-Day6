@@ -20,30 +20,7 @@ cd Day6_DeepDive
 python deep_dive_01_what_self_really_is.py
 ```
 
-## Practice
-
-The [`practice/`](practice) folder has one exercise file per deep dive. Each file has
-`TODO` comments to finish and a set of checks at the bottom.
-
-```bash
-cd Day6_DeepDive/practice
-python practice_01_class_and_self.py
-```
-
-| File | Practises | Checks |
-|------|-----------|--------|
-| `practice_01_class_and_self.py` | a class from scratch, a class attribute, fixing the shared-list trap | 6 |
-| `practice_02_encapsulation.py` | a guarded account, a validated setter, a computed property | 10 |
-| `practice_03_inheritance.py` | `super()`, overriding, and a HAS A class | 7 |
-| `practice_04_polymorphism.py` | one method name in three classes, dunder methods, a list-like class | 12 |
-| `practice_05_abstraction.py` | an abstract class, two children, a caller that knows only the contract | 7 |
-
-A fresh file prints `NOT YET` for every check and still runs to the end. Work on one task,
-run the file, and watch the lines turn to `PASS`. The text in brackets after `NOT YET` is the
-error Python raised, which tells you what to write next. The checks are also examples: read
-them to see how your class is expected to be used.
-
-`checker.py` is a small module that the practice files import. Keep it in the `practice` folder.
+Looking for short exercises? The light practice files are in [`../Day6_Practice`](../Day6_Practice).
 
 > Exact error messages and memory addresses (`0x7f...`) can differ between Python versions
 > and computers. The behaviour does not.

@@ -132,7 +132,4 @@ t = Tracker()
 #      wrong with = ?  (Day 3: changing an object or pointing a name.)
 #   3. What will  Student.has_passed()  with no argument say? Predict the
 #      exact wording of the error, then try it.
-#
-# PRACTICE
-#   Open practice/practice_01_class_and_self.py
 # ==========================================================================

@@ -124,7 +124,4 @@ except TypeError as error:
 #      be written to return False instead?
 #   3. Which dunder method do you think runs for  if batch:  ?
 #      Test it with Batch([]).
-#
-# PRACTICE
-#   Open practice/practice_04_polymorphism.py
 # ==========================================================================

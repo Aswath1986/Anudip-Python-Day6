@@ -8,12 +8,13 @@ First-principles thinking, light version: closing Day 5, then object-oriented pr
 |------|------------|
 | [`LESSON_PLAN.md`](LESSON_PLAN.md) | Facilitator plan: timings, the question to ask before each topic, common mistakes |
 | [`Day6_Structured/`](Day6_Structured) | 8 numbered lessons with PREDICT and TRY IT YOURSELF: a warm-up that closes Day 5, class and object, attributes and methods, the four pillars, and a mini project |
-| [`Day6_DeepDive/`](Day6_DeepDive) | 5 first-principles deep dives for self-study, with a [`practice/`](Day6_DeepDive/practice) folder of exercises that check themselves |
+| [`Day6_Practice/`](Day6_Practice) | Light practice: 5 short files, one per concept, two TODOs each, with checks that print `PASS` or `NOT YET` |
+| [`Day6_DeepDive/`](Day6_DeepDive) | 5 first-principles deep dives for self-study, for students who want to go further |
 
 Suggested order: finish Day 5 lessons 06 to 09 (lambda, map/filter/reduce, modules, libraries)
 from the [Day 5 repository](https://github.com/Aswath1986/Anudip-python-day5), then structured
-lessons 00 → 07 in class. The deep dives and the practice folder are for students who want more,
-in their own time.
+lessons 00 → 07 in class, with the matching practice file after each concept or as homework.
+The deep dives are for students who want more, in their own time.
 
 ## The one thread through the day
 

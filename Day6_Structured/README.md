@@ -38,5 +38,6 @@ Lines that are commented out with an error name beside them (for example
 `# print(locker.__pin)   # AttributeError`) are there to be tried: remove the `#`,
 run, read the message, then put the `#` back.
 
-When you finish, go on to the deep dives in [`../Day6_DeepDive`](../Day6_DeepDive).
+After each concept, try its short practice file in [`../Day6_Practice`](../Day6_Practice).
+When you want more, go on to the deep dives in [`../Day6_DeepDive`](../Day6_DeepDive).
 The facilitator's timings are in [`../LESSON_PLAN.md`](../LESSON_PLAN.md).

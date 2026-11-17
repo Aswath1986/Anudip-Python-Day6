@@ -107,7 +107,4 @@ print(r.area)                           # 40     always correct
 #   2. Rectangle.area has no setter. What does  r.area = 50  do?
 #   3. A getter method (get_balance()) and a property (balance) do the
 #      same job. Which reads better at the place where it is used?
-#
-# PRACTICE
-#   Open practice/practice_02_encapsulation.py
 # ==========================================================================

@@ -5,8 +5,8 @@ The class has completed Day 5 up to recursion (Lesson 05). Day 6 first finishes
 Day 5, then moves to object-oriented programming.
 
 Students follow the files in [`Day6_Structured`](Day6_Structured); the
-[`Day6_DeepDive`](Day6_DeepDive) folder and its `practice` exercises are for
-self-study afterwards.
+[`Day6_Practice`](Day6_Practice) folder has a five-minute exercise for each concept, and
+the [`Day6_DeepDive`](Day6_DeepDive) folder is for self-study afterwards.
 
 ## The first-principles method, light version
 
@@ -43,7 +43,7 @@ questions 1 and 2 ready to read out.
 | 2:05–2:20 | 04 Inheritance | Show the Student and Trainer classes side by side in section 1. "Add a phone number. How many edits?" | Parent, child, `super()`, overriding. Finish with the IS A test. |
 | 2:20–2:35 | 05 Polymorphism | "`len` works on a string and on a list. How can one function do two jobs?" Then show `pay_old`. "Add wallet payments. What must we edit?" | Same method name in each class; `checkout` never changes. |
 | 2:35–2:50 | 06 Abstraction | "You switched on the fan today. Who can explain the wiring?" Then: "In Lesson 05, what forced every class to have `pay`?" | Nothing did. `ABC` and `@abstractmethod` make it a contract. Run the `BrokenCash` case and read the message. |
-| 2:50–3:00 | 07 Mini project and close | "Find each of today's ideas in these two files." | Students point to the line for each idea. Assign TRY IT YOURSELF, the deep dives and the practice folder. |
+| 2:50–3:00 | 07 Mini project and close | "Find each of today's ideas in these two files." | Students point to the line for each idea. Assign the practice folder. The deep dives are optional. |
 
 ## How to run each lesson
 
@@ -83,7 +83,28 @@ questions 1 and 2 ready to read out.
 | `p = Payment("Asha")` on an abstract class | "Can you pay with 'a payment', or only with UPI, card or cash?" |
 | `print(asha)` showing `<__main__.Student object at ...>` | "Which method tells `print` what to show?" |
 
-## Self-study: the deep dives and practice
+## Practice: always the light one
+
+Practice is kept deliberately small, so that every student finishes it.
+[`Day6_Practice`](Day6_Practice) has one file per concept. Each file needs only
+the structured lesson, has two TODOs beside a worked model, and prints `PASS`
+or `NOT YET`, so students see their own progress without a facilitator.
+
+| Practice file | After lesson | Time |
+|---|---|---|
+| `practice_01_class_and_object.py` | 01–02 | 5 min |
+| `practice_02_encapsulation.py` | 03 | 5 min |
+| `practice_03_inheritance.py` | 04 | 5 min |
+| `practice_04_polymorphism.py` | 05 | 5 min |
+| `practice_05_abstraction.py` | 06 | 5 min |
+
+If a lesson finishes early, do its practice file in class; otherwise all five
+are homework. No solutions are in the repository.
+
+## Self-study: the deep dives
+
+Optional, and separate from practice. They explain why; they set no exercises
+beyond THINK ABOUT IT questions.
 
 | Deep dive | Follow-up to | Why a student would open it |
 |---|---|---|
@@ -92,10 +113,6 @@ questions 1 and 2 ready to read out.
 | 03 How inheritance finds a method | Lesson 04 | To know which method runs, and when not to inherit |
 | 04 Polymorphism and dunder methods | Lesson 05 | To make their own class work with `len`, `==`, `+`, `sorted` and `for` |
 | 05 Abstraction as a contract | Lesson 06 | To see how teams split work, and the four pillars working together |
-
-Each deep dive has a matching file in `Day6_DeepDive/practice` with TODOs and
-checks that print `PASS` or `NOT YET`. Students can see their own progress
-without a facilitator. No solutions are in the repository.
 
 ## Checking understanding
 

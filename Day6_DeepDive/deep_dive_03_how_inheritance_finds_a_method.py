@@ -122,7 +122,4 @@ print(room.average())                   # 75.0
 #      What prints now?
 #   3. A Car has an Engine. A Car is a Vehicle. Which one is inheritance
 #      and which one is composition?
-#
-# PRACTICE
-#   Open practice/practice_03_inheritance.py
 # ==========================================================================

@@ -145,7 +145,4 @@ print(record_marks(LoudStorage(), "Ravi", 67))      # saving Ravi, then 67
 #      abstraction?
 #   3. Can an abstract class have an __init__? Look at Payment in
 #      Lesson 06 before you answer.
-#
-# PRACTICE
-#   Open practice/practice_05_abstraction.py
 # ==========================================================================
