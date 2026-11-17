@@ -1,3 +1,6 @@
 # Python and Jupyter leftovers
 __pycache__/
 .ipynb_checkpoints/
+
+# The decrypted facilitator answer key must never be committed
+Facilitator/PRACTICE_ANSWER_KEY.md

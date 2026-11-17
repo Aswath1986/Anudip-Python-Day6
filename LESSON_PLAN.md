@@ -99,7 +99,8 @@ or `NOT YET`, so students see their own progress without a facilitator.
 | `practice_05_abstraction.py` | 06 | 5 min |
 
 If a lesson finishes early, do its practice file in class; otherwise all five
-are homework. No solutions are in the repository.
+are homework. The answers, with the mistake to expect in each file, are in an
+encrypted answer key; see [`Facilitator/README.md`](Facilitator/README.md) for how to open it.
 
 ## Self-study: the deep dives
 
